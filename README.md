@@ -19,7 +19,7 @@ This package was developed to facilitate integration with ParceladoUSA new API v
 3° environment - Type of environment where the integration will be performed, ParceladoUSA::SANDBOX or ParceladoUSA::PRODUCTION;<br>
 4° callback - URL Where the payment status must be informed.
 
-####OBS.: The callback route is used to redirect the paying customer to your environment, a parameter will be added to it after the address provided which is the order ID
+#### OBS.: The callback route is used to redirect the paying customer to your environment, a parameter will be added to it after the address provided which is the order ID
 
 ### Construct:
 
