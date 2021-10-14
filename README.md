@@ -69,4 +69,4 @@ This package was developed to facilitate integration with ParceladoUSA new API v
 
 ```
 
-##### If you have any questions, please feel free to contact our support via email suporte@parceladusa.com
+##### If you have any questions, please feel free to contact our support via email suporte@parceladousa.com
