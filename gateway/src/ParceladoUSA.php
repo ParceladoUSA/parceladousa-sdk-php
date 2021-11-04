@@ -3,6 +3,7 @@
     namespace Parceladousa;
 
     use Parceladousa\Interfaces\RequestInterface;
+    use Parceladousa\Resources\CalculateValues;
     use Parceladousa\Resources\ConsultPaymentOrder;
     use Parceladousa\Resources\RequestPaymentOrder;
     use Parceladousa\Resources\StartParceladoUSA;
@@ -54,6 +55,17 @@
             $request->setCity($data->city);
             $request->setState($data->state);
             $request->setCallback($this->callback);
+            return $this->send($request);
+        }
+
+        /**
+         * @param object $data
+         * @return $this|null
+         */
+        public function calculateValues($data)
+        {
+            $request = new CalculateValues();
+            $request->setAmount($data->amount);
             return $this->send($request);
         }
 
