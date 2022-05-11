@@ -44,6 +44,7 @@
         {
             $request = new RequestPaymentOrder();
             $request->setAmount($data->amount);
+            $request->setInvoice($data->invoice);
             $request->setCurrency($data->currency);
             $request->setName($data->name);
             $request->setEmail($data->email);

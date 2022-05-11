@@ -45,6 +45,7 @@ This package was developed to facilitate integration with ParceladoUSA new API v
     //Transaction creation
     $data = new stdClass();
     $data->amount = 99.99;
+    $data->invoice = 'Invoice Text';
     $data->currency = ParceladoUSA::AMERICANCURRENCY;
     $data->name = 'Customer Name';
     $data->email = 'email@domainofmail.com';
